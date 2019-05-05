@@ -6,6 +6,7 @@ public class Main {
         System.out.println("Change 1");
         System.out.println(makeSomeText());
         System.out.println(feature2());
+        System.out.println(feature3());
     }
 
     public static String makeSomeText() {
@@ -14,5 +15,9 @@ public class Main {
 
     public static String feature2() {
         return "This is the feature2 text";
+    }
+
+    public static String feature3() {
+        return "This is the feature3 text";
     }
 }
