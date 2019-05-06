@@ -24,6 +24,7 @@ public class Main {
     }
 
     public static String feature4() {
+        System.out.println("Processing feature 4");
         return "This is the feature4 text";
     }
 }
